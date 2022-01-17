@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautyworld</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+   <img id="logo" src="data:image/png;base64,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" alt="">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Beautyworld</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Our Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact Us</a>
+        </li>
+        
+      </ul>
+    
+    </div>
+  </div>
+</nav>
+  
+<div class="home">
+ <h1>  Welcome to Beautyworld 2022 </h1>
+ 
+ <p>
+    Beautyworld Middle East is the largest international trade fair for beauty products,<br> hair,fragrances and wellbeing in the Middle East. As one of the most influential<br> and visited beauty trade shows in the world, the show offers trade visitors the<br> convenienceof meeting exhibitors face-to-face over three days, for serious business.  
+ </p>
+
+ <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/Zax2UGkAA0k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+ </iframe> -->
+</div>
+
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://uppler-platform-bfbeauty.s3.eu-west-3.amazonaws.com/uppler_default/24/21/3ec4a4197dad5847f68fac6e6016.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://beautyworld-middle-east.ae.messefrankfurt.com/content/dam/messefrankfurt-dubai/Beautyworld-middle-east/2021/stage/awards-winners.jpg.transform/1920w/image.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://beautyworld-middle-east.ae.messefrankfurt.com/content/dam/messefrankfurt-dubai/Beautyworld-middle-east/2021/stage/conference-1.jpg.transform/1920w/image.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+    </header>
+</body>
+</html>
